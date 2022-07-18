@@ -101,7 +101,7 @@ ul i {
 .card-l-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
   padding: 2rem 3rem;
 }
 
@@ -138,4 +138,37 @@ button:hover {
   border-bottom: 2px solid var(--color-grey);
   cursor: pointer;
 }
+
+/*Card Grid Section styles*/
+.grid-card-section {
+  margin-top: 3rem;
+  padding: 0 3rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  font-size: 3rem;
+}
+
+.card-latest.card-item {
+  flex-direction: column-reverse;
+}
+
+.card-item .card-l-content h1 {
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
